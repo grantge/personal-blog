@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Personal Blog</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="title-page">
+                <h1>Personal Blog</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra turpis tristique nisi laoreet gravida. Sed sed orci ut ante pellentesque efficitur id ac erat. Morbi metus metus, dictum sed arcu at, interdum porttitor erat.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Posts Sections -->
+    <main>
+        <div class="container">
+            <h3 class="blog-title">Blog Posts</h3>
+
+            <div class="form-and-posts">
+                <div class="forms">
+                    <div class="form-id">
+                        <label id="id-number">ID</label>
+                        <input type="text" class="id" placeholder="id"  >
+                    </div>
+
+                    <div class="form-title">
+                        <label id="title">Title:</label>
+                        <input type="text" class="title" placeholder="Title">
+                    </div>
+                    
+                    <div class="form-text">
+                        <label id="message">Text:</label>
+                        <textarea name="text" id="text" cols="30" rows="10" class="text" placeholder="Text"></textarea>
+                    </div>
+
+                    <button class="create-btn">Create</button>
+                    <button class="update-btn">Update</button>
+                </div>
+                
+                <div class="posts-container">
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <nav>
+                <a href="">Title</a>
+                <a href="">Posts</a>
+            </nav>
+
+            <p>Your Personal Blog!</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

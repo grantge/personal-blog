@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #353a3f;
+}
+
+.title-page {
+  width: 790px;
+  margin: 0 auto;
+  padding: 200px 0;
+  position: relative;
+}
+.title-page h1 {
+  color: #ffffff;
+  font-size: 62px;
+  margin-bottom: 55px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.title-page h1::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #4cb480;
+  top: 190px;
+  position: absolute;
+  width: 50px;
+}
+.title-page p {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+main {
+  position: relative;
+}
+main h3 {
+  margin-top: 110px;
+  margin-bottom: 70px;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+main h3::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #4cb480;
+  top: -10px;
+  position: absolute;
+  width: 50px;
+}
+
+.form-and-posts {
+  display: flex;
+  justify-content: space-between;
+}
+.form-and-posts .forms {
+  margin-bottom: 260px;
+  height: 0;
+}
+.form-and-posts .form-title {
+  display: flex;
+  flex-direction: column;
+}
+.form-and-posts .form-title input {
+  height: 35px;
+  padding: 9px;
+  border: 1px solid #353a3f;
+  transition: 0.1s;
+}
+.form-and-posts .form-title input:focus {
+  border: 3px solid #555;
+}
+.form-and-posts .form-title label {
+  font-size: 23px;
+}
+
+.form-and-posts .form-id {
+  display: none;
+}
+
+.form-and-posts .form-text {
+  display: flex;
+  flex-direction: column;
+}
+.form-and-posts .text {
+  border: 1px solid #353a3f;
+  resize: none;
+  padding: 9px;
+  transition: 0.1s;
+}
+.form-and-posts .text:focus {
+  border: 3px solid #555;
+}
+.form-and-posts label {
+  font-size: 23px;
+}
+.form-and-posts .create-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #353a3f;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.form-and-posts .create-btn:hover {
+  background-color: #ffffff;
+  color: #353a3f;  
+}
+.form-and-posts .update-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #353a3f;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+
+  display: none;
+}
+.form-and-posts .update-btn:hover {
+  background-color: #ffffff;
+  color: #353a3f;
+}
+.form-and-posts .create-btn:focus {
+  background-color: gray;
+}
+
+.posts-container {
+  margin-left: 30px;
+}
+
+.posts {
+  width: 800px;
+  background-color: #353a3f;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.posts:hover {
+  box-shadow: 0px 5px 6px 4px rgba(34, 60, 80, 0.59);
+  transition: 0.5s;
+}
+.posts .post-title {
+  color: #ffffff;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.posts .post-message {
+  opacity: 0.5;
+  color: #ffffff;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+.buttons button {
+  padding: 5px 10px;
+  background-color: #353a3f;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color: #ffffff;
+  color: #353a3f;
+}
+.buttons button:focus {
+  background-color: gray;
+}
+
+main {
+  margin-bottom: 120px;
+}
+
+footer {
+  background-color: #353a3f;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer nav {
+  padding: 50px 0;
+  font-size: 25px;
+}
+footer nav a {
+  opacity: 0.5;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 50px;
+}
+footer nav a:hover {
+  opacity: 10;
+}
+footer p {
+  padding: 65px 0;
+  font-size: 15px;
+  opacity: 0.5;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
